@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("background.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.header-box {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-box h1 {
+    color: rgb(195, 195, 9);
+    font-size: 46px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    align-self: flex-start;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: rgb(195, 195, 9);
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(2, 83, 83);
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details ul li {
+    margin: 10px 0;
+}
+
+.contact-details ul li a {
+    color: #e6eaee;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-details ul li a:hover {
+    /* text-decoration: underline; */
+    color: #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c2c2c;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+li a {
+    background-color: rgb(195, 195, 9);
+    color: rgb(237, 232, 232);
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+li a:hover {
+    background-color: rgb(2, 83, 83);
+}
